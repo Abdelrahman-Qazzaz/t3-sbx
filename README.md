@@ -22,13 +22,13 @@ T3 Code has no built-in Docker Sandboxes support yet, but it can connect to a sa
 From your project folder:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/YOUR_USER/t3-sbx/main/t3-sbx.sh | bash
+curl -fsSL https://raw.githubusercontent.com/Abdelrahman-Qazzaz/t3-sbx/main/t3-sbx.sh | bash
 ```
 
 To give the sandbox a custom name:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/YOUR_USER/t3-sbx/main/t3-sbx.sh | bash -s -- my-sandbox
+curl -fsSL https://raw.githubusercontent.com/Abdelrahman-Qazzaz/t3-sbx/main/t3-sbx.sh | bash -s -- my-sandbox
 ```
 
 Or download `t3-sbx.sh` and run `bash t3-sbx.sh [name]`.
